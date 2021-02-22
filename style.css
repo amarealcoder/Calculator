@@ -41,6 +41,7 @@ input {
   grid-gap: 1rem;
   margin-top: 25px;
 }
+
 button {
   box-shadow: -6px -6px 9px #fff, 6px 6px 9px #000;
   width: 60px;
@@ -58,7 +59,14 @@ button:active {
 button:active {
   box-shadow: inset -5px -5px 9px #fff, inset 5px 5px 9px #000;
 }
-.op-key,
-.equals-key {
-  color: #ee4b14;
+.op-key {
+  color: #fc4407;
+}
+.equals {
+  grid-column: 2/ 4;
+  width: 100%;
+  color: #06ca06;
+}
+.delete {
+  color: #bb0505;
 }
